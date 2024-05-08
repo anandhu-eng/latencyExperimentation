@@ -46,9 +46,9 @@ def main(images, num_processes, imagCollection):
         "imagCollection": imagCollection,
         "max_latency": max_latency
     }
-    l = []
-    l.append(d)
-    return l
+    # l = []
+    # l.append(d)
+    return d
 
 if __name__ == "__main__":
     origImages = os.listdir(r"D:\imagenet")  # List of image paths
